@@ -1,0 +1,762 @@
+{
+    "choose_your_language": "Seleccione seu idioma",
+    "@choose_your_language": {
+        "description": "Seleccione seu idioma"
+    },
+	"general_modal_exitform_confirmation_title": "Sair do formulario",
+	"@general_modal_exitform_confirmation_title": {
+		"description": "Sair do formulario"
+	},
+	"general_modal_exitform_confirmation": "Tem certeza que deseja sair do formulario?",
+	"@general_modal_exitform_confirmation": {
+		"description": "Tem certeza que deseja sair do formulario?"
+	},
+	"general_modal_exitform_confirmation_yes": "Sim",
+	"@general_modal_exitform_confirmation_yes": {
+		"description": "Sim"
+	},
+	"general_modal_exitform_confirmation_no": "Não",
+	"@general_modal_exitform_confirmation_no": {
+		"description": "Não"
+	},
+	"general_loading_message": "Por favor aguarde...",
+	"@general_loading_message": {
+		"description": "Por favor aguarde"
+	},
+	"general_total_returned_message": "Retornou um total de {total} resultado(s)",
+	"@general_total_returned_message": {
+		"description": "Retornou um total de {total} resultado(s)",
+		"placeholders":{
+			"total":{
+				"type": "int"
+			}
+		}
+	},
+	"general_total_registered_trees_message": "{total} arvore(s) registadas",
+	"@general_total_registered_trees_message": {
+		"description": "{total} arvore(s) registadas",
+		"placeholders":{
+			"total":{
+				"type": "String"
+			}
+		}
+	},
+	"general_trees_sprayed_message": "{total} arvores pulverizadas",
+	"@general_trees_sprayed_message": {
+		"description": "{trees} arvores pulverizadas",
+		"placeholders":{
+			"total":{
+				"type": "String"
+			}
+		}
+	},
+	"general_trees_cleaned_message": "{total} arvores limpas",
+	"@general_trees_cleaned_message": {
+		"description": "{total} arvores limpas",
+		"placeholders":{
+			"total":{
+				"type": "String"
+			}
+		}
+	},
+	"general_trees_pruned_message": "{total} arvores podadas",
+	"@general_trees_pruned_message": {
+		"description": "{total} arvores podadas",
+		"placeholders":{
+			"total":{
+				"type": "String"
+			}
+		}
+	},
+	"general_success_save_form_message": "Formulario salvo com sucesso",
+	"@general_success_saved_form_message": {
+		"description": "Formulario salvo com sucesso"
+	},
+	"general_failed_save_form_message": "Erro ao salvar formulario",
+	"@general_failed_save_form_message": {
+		"description": "Erro ao salvar formulario"
+	},
+	"general_error_occured_save_message": "Ocorreu um erro {error}, ao salvar o formulario",
+	"@general_error_occured_save_message": {
+		"description": "Erro geral ao nivel da persistencia da base de dados",
+		"placeholders":{
+			"error":{
+				"type": "String"
+			}
+		}
+	},
+	"general_registered_farmers_message": "Produtores registados",
+	"@general_registered_farmers_message": {
+		"description": "Produtores registados"
+	},
+	"general_assisted_farmers_message": "Produtores assistidos",
+	"@general_assisted_farmers_message": {
+		"description": "Produtores assistidos"
+	},
+	"general_registered_plantation_message": "Plantações registadas",
+	"@general_registered_plantation_message": {
+		"description": "Plantações registadas"
+	},
+	"general_registered_trees_message": "Arvores registadas",
+	"@general_registered_trees_message": {
+		"description": "Arvores registadas"
+	},
+	"general_cleaned_trees_message": "Arvores limpas",
+	"@general_cleaned_trees_message": {
+		"description": "Arvores limpas"
+	},
+	"general_pruned_trees_message": "Arvores podadas",
+	"@general_pruned_trees_message": {
+		"description": "Arvores podadas"
+	},
+	"general_set_agreement_message": "Sem acordo de pagamento",
+	"@general_set_agreement_message": {
+		"description": "Sem acordo de pagamento"
+	},
+	"general_agreement_payment_fully_paid_message": "Produtor sem divida",
+	"@general_agreement_payment_fully_paid_message": {
+		"description": "Produtor sem divida"
+	},
+	"general_agreement_payment_over_paid_message": "O valor pago é superior a divida",
+	"@general_agreement_payment_over_paid_message": {
+		"description": "O valor pago é superior a divida"
+	},
+	"general_profit_per_tree_per_sprayer_message": "Lucro por atomizador",
+	"@general_profit_per_tree_per_sprayer_message": {
+		"description": "Lucro por atomizador"
+	},
+	"general_cost_per_tree_per_sprayer_message": "Custo por arvore",
+	"@general_cost_per_tree_per_sprayer_message": {
+		"description": "Custo por arvore"
+	},
+	"general_refresh": "Actualizar pagina",
+	"@general_refresh": {
+		"description": "Actualizar pagina"
+	},
+	"general_search": "Pesquisar",
+	"@general_search": {
+		"description": "Pesquisar"
+	},
+	"general_farmers_entity": "Produtores",
+	"@general_farmers_entity": {
+		"description": "Produtores"
+	},
+	"general_plots_entity": "Plantações",
+	"@general_plots_entity": {
+		"description": "Plantações"
+	},
+	"general_tress_entity": "Arvores",
+	"@general_tress_entity": {
+		"description": "Arvores"
+	},
+	"general_agreed_tress_entity": "Arvores acordadas",
+	"@general_agreed_tress_entity": {
+		"description": "Arvores acordadas"
+	},
+	"general_applications_entity": "Aplicações",
+	"@general_applications_entity": {
+		"description": "Aplicações"
+	},
+	"general_debit_entity": "Em divida",
+	"@general_debit_entity": {
+		"description": "Em divida"
+	},
+	"general_expenses_overview": "Despesas",
+	"@general_expenses_overview": {
+		"description": "Despesas"
+	},
+	"general_incomes_overview": "Receitas",
+	"@general_incomes_overview": {
+		"description": "Receitas"
+	},
+	"general_total_expenses": "Despesas totais",
+	"@general_total_expenses": {
+		"description": "Despesas totais"
+	},
+	"general_total_incomes": "Receitas totais",
+	"@general_total_incomes": {
+		"description": "Receitas totais"
+	},
+	"general_trees_sprayed_per_application": "Arvores pulverizadas por aplicação",
+	"@general_trees_sprayed_per_application": {
+		"description": "Arvores pulverizadas por aplicação"
+	},
+	"login_title": "Informe suas credencias",
+	"@login_title": {
+		"description": "Informe suas credencias"
+	},
+	"recover_password_title": "Recuperar senha",
+	"@recover_password_title": {
+		"description": "Recuperar senha"
+	},
+	"signup_title": "Preencha o formulario para se registar",
+	"@signup_title": {
+		"description": "Preencha o formulario para se registar"
+	},
+	"login_username_placeholder": "Número de Telefone ou email",
+	"@login_username_placeholder": {
+		"description": "Número de Telefone ou email"
+	},
+	"login_password_placeholder": "Senha",
+	"@login_password_placeholder": {
+		"description": "Senha"
+	},
+	"login_button": "Entrar",
+	"@login_button": {
+		"description": "Entrar"
+	},
+	"login_successful": "Autenticado com sucesso",
+	"@login_successful": {
+		"description": "Autenticado com sucesso"
+	},
+	"login_unsuccessful_error": "Erro ao autenticar",
+	"@login_unsuccessful_error": {
+		"description": "Erro ao autenticar"
+	},
+	"signin_call_to_action": "Ja tem uma conta criada? ",
+	"@signin_call_to_action": {
+		"description": "Ja tem uma conta criada? "
+	},
+	"signin_recover_password_call_to_action_text": "Esqueceu sua senha? ",
+	"@signin_recover_password_call_to_action_text": {
+		"description": "Esqueceu sua senha?"
+	},
+	"signin_recover_password_text": "clique para recuperar",
+	"@signin_recover_password_text": {
+		"description": "clique para recuperar"
+	},
+	"signin_button_text": "clique para entrar",
+	"@signin_button_text": {
+		"description": "clique para entrar"
+	},
+	"signup_call_to_action": "Ainda não tem conta? ",
+	"@signup_call_to_action": {
+		"description": "Ainda não tem conta? "
+	},
+	"signup_button_text": "clique para registar-se",
+	"@signup_button_text": {
+		"description": "clique para registar-se"
+	},
+	"recover_safety_question_placeholder": "Pergunta de segurança",
+	"@recover_safety_question_placeholder": {
+		"description": "Pergunta de segurança"
+	},
+	"recover_safety_answer_placeholder": "Resposta",
+	"@recover_safety_answer_placeholder": {
+		"description": "Resposta"
+	},
+	"recover_new_password_placeholder": "Nova senha",
+	"@recover_new_password_placeholder": {
+		"description": "Nova senha"
+	},
+	"recover_repeat_new_password_placeholder": "Repetir senha",
+	"@recover_repeat_new_password_placeholder": {
+		"description": "Repetir senha"
+	},
+	"recover_dont_match_password_placeholder": "As senhas não correspondem",
+	"@recover_dont_match_password_placeholder": {
+		"description": "As senhas não correspondem"
+	},
+	"settings_title": "Definições",
+	"@settings_title": {
+		"description": "Definições"
+	},
+	"settings_darkmode_toggle": "Tema escuro",
+	"@settings_darkmode_toggle": {
+		"description": "Tema escuro"
+	},
+	"settings_changelanguage_selection": "Mudar idioma",
+	"@settings_changelanguage_selection": {
+		"description": "Mudar idioma"
+	},
+	"settings_accountdetails_edit": "Actualizar conta",
+	"@settings_accountdetails_edit": {
+		"description": "Actualizar conta"
+	},
+	"settings_campaign_managment": "Gestão de campanhas",
+	"@settings_campaign_managment": {
+		"description": "Gestão de campanhas"
+	},
+	"settings_database_backup": "Backup da base de dados",
+	"@settings_database_backup": {
+		"description": "Backup da base de dados"
+	},
+	"settings_contact_support": "Suporte tecnico",
+	"@settings_contact_support": {
+		"description": "Suporte tecnico"
+	},
+	"settings_about": "Sobre nos",
+	"@settings_about": {
+		"description": "Sobre nos"
+	},
+	"form_field_free_input_value": "Gratuito",
+	"@form_field_free_input_value": {
+		"description": "Gratuito"
+	},
+	"form_field_buy_input_value": "Comprado",
+	"@form_field_buy_input_value": {
+		"description": "Comprado"
+	},
+	"form_field_operational_input_value": "Operacional",
+	"@form_field_operational_input_value": {
+		"description": "Operacional"
+	},
+	"form_field_non_operational_input_value": "Não operacional",
+	"@form_field_non_operational_input_value": {
+		"description": "Não operacional"
+	},
+	"form_field_atomizer_input_value": "Atomizador",
+	"@form_field_atomizer_input_value": {
+		"description": "Atomizador"
+	},
+	"form_field_expense_input_value": "Despesa",
+	"@form_field_expense_input_value": {
+		"description": "Despesa"
+	},
+	"form_field_income_input_value": "Receita",
+	"@form_field_income_input_value": {
+		"description": "Receita"
+	},
+	"form_field_employees_input_value": "Trabalhadores",
+	"@form_field_employees_input_value": {
+		"description": "Trabalhadores"
+	},
+	"form_field_fuels_input_value": "Combustivel",
+	"@form_field_fuels_input_value": {
+		"description": "Combustivel"
+	},
+	"form_field_equipment_maintenance_input_value": "Manutenção de Equipamento",
+	"@form_field_equipment_maintenance_input_value": {
+		"description": "Manutenção de Equipamento"
+	},
+	"form_field_equipment_acquisition_input_value": "Compra de Equipamento",
+	"@form_field_equipment_acquisition_input_value": {
+		"description": "Compra de Equipamento"
+	},
+	"form_field_cleaning_and_pruning_input_value": "Limpeza e Poda",
+	"@form_field_cleaning_and_pruning_input_value": {
+		"description": "Limpeza e Poda"
+	},
+	"form_field_cleaning_input_value": "Limpeza",
+	"@form_field_cleaning_input_value": {
+		"description": "Limpeza"
+	},
+	"form_field_pruning_input_value": "Poda",
+	"@form_field_cpruning_input_value": {
+		"description": "Poda"
+	},
+	"form_field_mandatory_validation_message": "Este campo é obrigatorio",
+	"@form_field_mandatory_validation_message": {
+		"description": "Este campo é obrigatorio"
+	},
+	"form_field_check_all_mandatory_fields_validation_message": "Verifique todos campos mandatorios",
+	"@form_field_check_all_mandatory_fields_validation_message": {
+		"description": "Verifique todos campos mandatorios"
+	},
+	"access_denied_validation_message": "Acesso não permitido",
+	"@access_denied_validation_message": {
+		"description": "Acesso não permitido"
+	},
+	"form_field_exceeded_validation_message": "Excedeu o numero de {numberOfTrees} arvores do produtor",
+	"@form_field_exceeded_validation_message": {
+		"description": "Excedeu o numero de {numberOfTrees} arvores do produtor",
+		"placeholders": {
+			"numberOfTrees": {
+				"type": "String"
+			}
+		}
+	},
+	"form_field_firstname_placeholder": "Primeiro nome",
+	"@form_field_firstname_placeholder": {
+		"description": "Campo de entrada de dados para nome"
+	},
+	"form_field_plotname_placeholder": "Nome da plantação",
+	"@form_field_plotname_placeholder": {
+		"description": "Nome da plantação"
+	},
+	"form_field_number_of_large_trees_placeholder": "Numero de arvores grandes",
+	"@form_field_number_of_large_trees_placeholder": {
+		"description": "Numero de arvores grandes"
+	},
+	"form_field_number_of_small_trees_placeholder": "Numero de arvores pequenas",
+	"@form_field_number_of_small_trees_placeholder": {
+		"description": "Numero de arvores pequenas"
+	},
+	"form_field_declared_area_placeholder": "Area declarada (ha)",
+	"@form_field_declared_area_placeholder": {
+		"description": "Area declarada (ha)"
+	},
+	"form_field_lastname_placeholder": "Apelido",
+	"@form_field_lastname_placeholder": {
+		"description": "Apelido"
+	},
+	"form_field_mobile_number_placeholder": "Número de telefone",
+	"@menu_subitem_atomizers_form_field": {
+		"description": "Número de telefone"
+	},
+	"form_field_birth_date_placeholder": "Data de nascimento",
+	"@form_field_birth_date_placeholder": {
+		"description": "Data de nascimento"
+	},
+	"form_field_birth_year_placeholder": "Ano de nascimento",
+	"@form_field_birth_year_placeholder": {
+		"description": "Ano de nascimento"
+	},
+	"form_field_gender_placeholder": "Genero",
+	"@form_field_gender_placeholder": {
+		"description": "Genero"
+	},
+	"form_field_email_placeholder": "E-mail",
+	"@form_field_email_placeholder": {
+		"description": "E-mail"
+	},
+	"form_field_province_placeholder": "Provincia",
+	"@form_field_province_placeholder": {
+		"description": "Provincia"
+	},
+	"form_field_district_placeholder": "Distrito",
+	"@form_field_district_placeholder": {
+		"description": "Distrito"
+	},
+	"form_field_pruning_type_placeholder": "Tipo de poda",
+	"@form_field_pruning_type_placeholder": {
+		"description": "Tipo de poda"
+	},
+	"form_field_plot_type_placeholder": "Tipo de Plantação",
+	"@form_field_plot_type_placeholder": {
+		"description": "Tipo de Plantação"
+	},
+	"form_field_other_crop_placeholder": "Outra cultura",
+	"@form_field_other_crop_placeholder": {
+		"description": "Outra cultura"
+	},
+	"form_field_administrativepost_placeholder": "Posto Administrativo",
+	"@form_field_administrativepost_placeholder": {
+		"description": "Posto Administrativo"
+	},
+	"form_field_password_placeholder": "Senha",
+	"@form_field_password_placeholder": {
+		"description": "Senha"
+	},
+	"form_field_price_placeholder": "Valor",
+	"@form_field_price_placeholder": {
+		"description": "Valor"
+	},
+	"form_field_total_price_placeholder": "Valor total",
+	"@form_field_total_price_placeholder": {
+		"description": "Valor total"
+	},
+	"form_field_quantity_placeholder": "Quantidade",
+	"@form_field_quantity_placeholder": {
+		"description": "Quantidade"
+	},
+	"form_field_collected_amount_placeholder": "Valor pago",
+	"@form_field_collected_amount_placeholder": {
+		"description": "Valor pago"
+	},
+	"form_field_discount_placeholder": "Desconto",
+	"@form_field_discount_placeholder": {
+		"description": "Desconto"
+	},
+	"form_field_category_placeholder": "Categoria",
+	"@form_field_category_placeholder": {
+		"description": "Categoria"
+	},
+	"form_field_transaction_type_placeholder": "Tipo de transacção",
+	"@form_field_transaction_type_placeholder": {
+		"description": "Tipo de transacção"
+	},
+	"form_field_payment_type_placeholder": "Tipo de pagamento",
+	"@form_field_payment_type_placeholder": {
+		"description": "Tipo de pagamento"
+	},
+	"form_field_description_placeholder": "Descrição",
+	"@form_field_description_placeholder": {
+		"description": "Descrição"
+	},
+	"form_field_agreed_trees_to_spray_placeholder": "Numero de arvores acordadas",
+	"@form_field_agreed_trees_to_spray_placeholder": {
+		"description": "Numero de arvores acordadas"
+	},
+	"form_field_sprayed_date_placeholder": "Data da pulverização",
+	"@form_field_sprayed_date_placeholder": {
+		"description": "Data da pulverização"
+	},
+	"form_field_payment_per_tree_placeholder": "Pagamento por arvores grandes",
+	"@form_field_payment_per_tree_placeholder": {
+		"description": "Pagamento por arvores grandes"
+	},
+	"form_field_payment_per_small_tree_placeholder": "Pagamento por arvores pequenas",
+	"@form_field_payment_per_small_tree_placeholder": {
+		"description": "Pagamento por arvores pequenas"
+	},
+	"form_field_number_of_applications_placeholder": "Numero de aplicações",
+	"@form_field_number_of_applications_placeholder": {
+		"description": "Numero de aplicações"
+	},
+	"form_field_how_did_you_get_chemicals_placeholder": "Como adiquiriu os quimicos",
+	"@form_field_how_did_you_get_chemicals_placeholder": {
+		"description": "Como adiquirou os quimicos"
+	},
+	"form_field_supplier_placeholder": "Fornecedores",
+	"@form_field_supplier_placeholder": {
+		"description": "Fornecedores"
+	},
+	"form_field_chemical_name_placeholder": "Nome do quimico",
+	"@form_field_chemical_name_placeholder": {
+		"description": "Nome do quimico"
+	},
+	"form_field_acquired_date_placeholder": "Data de aquisição",
+	"@form_field_acquired_date_placeholder": {
+		"description": "Data de aquisição"
+	},
+	"form_field_number_of_trees_sprayed_placeholder": "Numero de arvores grandes",
+	"@form_field_number_of_trees_sprayed_placeholder": {
+		"description": "Numero de arvores pulverizadas"
+	},
+	"form_field_number_of_trees_small_sprayed_placeholder": "Numero de arvores pequenas",
+	"@form_field_number_of_trees_small_sprayed_placeholder": {
+		"description": "Numero de arvores pequenas pulverizadas"
+	},
+	"form_field_number_of_trees_cleaned_placeholder": "Numero de arvores limpas",
+	"@form_field_number_of_trees_cleaned_placeholder": {
+		"description": "Numero de arvores limpas"
+	},
+	"form_field_number_of_trees_pruned_placeholder": "Numero de arvores podadas",
+	"@form_field_number_of_trees_pruned_placeholder": {
+		"description": "Numero de arvores podadas"
+	},
+	"form_field_equipment_name_placeholder": "Nome do equipamento",
+	"@form_field_equipment_name_placeholder": {
+		"description": "Nome do equipamento"
+	},
+	"form_field_brand_placeholder": "Marca",
+	"@form_field_brand_placeholder": {
+		"description": "Marca"
+	},
+	"form_field_buyed_year_placeholder": "Ano de compra",
+	"@form_field_buyed_year_placeholder": {
+		"description": "Ano de compra"
+	},
+	"form_field_buyed_at_placeholder": "Comprado em",
+	"@form_field_buyed_at_placeholder": {
+		"description": "Comprado em"
+	},
+	"form_field_model_placeholder": "Modelo",
+	"@form_field_model_placeholder": {
+		"description": "Modelo"
+	},
+	"form_field_status_placeholder": "Estado",
+	"@form_field_status_placeholder": {
+		"description": "Estado"
+	},
+	"form_field_atomizer_placeholder": "Atomizador",
+	"@form_field_atomizer_placeholder": {
+		"description": "Atomizador"
+	},
+	"form_field_button_save_text": "Salvar",
+	"@form_field_button_save_text": {
+		"description": "Salvar"
+	},
+	"form_field_button_register_transaction": "Registar transacção",
+	"@form_field_button_register_transaction": {
+		"description": "Registar transacção"
+	},
+	"form_field_button_register": "Registar",
+	"@form_field_button_register": {
+		"description": "Registar"
+	},
+	"form_field_no_event_activity": "Nenhuma actividade registada",
+	"@form_field_no_event_activity": {
+		"description": "Nenhuma actividade registada"
+	},
+	"form_field_event_activity": "Agendar actividades",
+	"@form_field_event_activity": {
+		"description": "Agendar actividades"
+	},
+	"form_field_event_activity_title_placeholder": "Titulo da actividade",
+	"@form_field_event_activity_title_placeholder": {
+		"description": "Titulo da actividade"
+	},
+	"form_field_event_from_date_placeholder": "Data de Inicio",
+	"@form_field_event_from_date_placeholder": {
+		"description": "Data de Inicio"
+	},
+	"form_field_event_end_date_placeholder": "Data de final",
+	"@form_field_event_end_date_placeholder": {
+		"description": "Data de final"
+	},
+	"sidebar_modules_farmersandplots": "Produtores e plantações",
+	"@sidebar_modules_farmersandplots": {
+		"description": "Produtores e plantações"
+	},
+	"sidebar_modules_finance": "Finanças",
+	"@sidebar_modules_finance": {
+		"description": "Finanças"
+	},
+	"sidebar_modules_chemicalacquisition": "Acquisição de quimicos",
+	"@sidebar_modules_chemicalacquisition": {
+		"description": "Acquisição de quimicos"
+	},
+	"sidebar_modules_chemicaltreatment": "Maneio integrado",
+	"@sidebar_modules_chemicaltreatment": {
+		"description": "Maneio integrado"
+	},
+	"sidebar_modules_schedule_activity": "Agendar actividades",
+	"@sidebar_modules_schedule_activity": {
+		"description": "Agendar actividades"
+	},
+	"sidebar_modules_equipments": "Equipamentos",
+	"@sidebar_modules_equipments": {
+		"description": "Equipamentos"
+	},
+	"sidebar_modules_faq": "Perguntas frequentes",
+	"@sidebar_modules_faq": {
+		"description": "Perguntas frequentes"
+	},
+	"search_farmers": "Pesquisar produtores",
+	"@search_farmers": {
+		"description": "Pesquisar produtores"
+	},
+	"register_farmers": "Registar produtor",
+	"@register_farmers": {
+		"description": "Registar produtor"
+	},
+	"save_farmers": "Salvar produtor",
+	"@save_farmers": {
+		"description": "Salvar produtor"
+	},
+	"edit_farmers": "Editar produtor",
+	"@edit_farmers": {
+		"description": "Editar produtor"
+	},
+	"fill_farmer_details": "Infrome os dados do produtor",
+	"@fill_farmer_details": {
+		"description": "Informe os dados do produtor"
+	},
+	"register_plots": "Registar plantação",
+	"@register_plots": {
+		"description": "Registar plantação"
+	},
+	"save_plots": "Salvar plantação",
+	"@save_plots": {
+		"description": "Salvar plantação"
+	},
+	"fill_plot_details": "Infrome os dados da plantação",
+	"@fill_plot_details": {
+		"description": "Informe os dados da plantação"
+	},
+	"finance_title_page": "Finanças",
+	"@finance_title_page": {
+		"description": "Finanças"
+	},
+	"finance_payment_agreement": "Acordos de pagamento",
+	"@finance_payment_agreement": {
+		"description": "Acordos de pagamento"
+	},
+	"finance_payments": "Pagamentos",
+	"@finance_payments": {
+		"description": "Pagamentos"
+	},
+	"finance_expenses_and_incomes": "Receitas e despesas",
+	"@finance_expenses_and_incomes": {
+		"description": "Receitas e despesas"
+	},
+	"finance_reports": "Relatorio financeiro",
+	"@finance_reports": {
+		"description": "Relatorio financeiro"
+	},
+	"finance_profitability_reports": "Relatorio de projeção financeira",
+	"@finance_profitability_reports": {
+		"description": "Relatorio de projeção financeira"
+	},
+	"finance_profitability_incomes": "Lucro total",
+	"@finance_profitability_incomes": {
+		"description": "Lucro total"
+	},
+	"finance_profitability_expense": "Custo pulverização",
+	"@finance_profitability_expense": {
+		"description": "Custo pulverização"
+	},
+	"finance_no_agreement": "Sem acordo",
+	"@finance_no_agreement": {
+		"description": "Sem acordo"
+	},
+	"finance_payments_title": "Pagamentos",
+	"@finance_payments_title": {
+		"description": "Pagamentos"
+	},
+	"finance_payments_to_pay": "Total a pagar",
+	"@finance_payments_to_pay": {
+		"description": "Pagamentos"
+	},
+	"finance_payments_total_debit": "Em divida",
+	"@finance_payments_total_debit": {
+		"description": "Em divida"
+	},
+	"finance_payments_total_paid": "Total pago",
+	"@finance_payments_total_paid": {
+		"description": "Total pago"
+	},
+	"chemical_acquisition_title": "Aquisição de quimicos",
+	"@chemical_acquisition_title": {
+		"description": "Aquisição de quimicos"
+	},
+	"chemical_integrated_managment_title": "Maneio integrado",
+	"@chemical_integrated_managment_title": {
+		"description": "Maneio integrado"
+	},
+	"chemical_integrated_managment_preparatory_activity": "Actividades preparatorias",
+	"@chemical_integrated_managment_preparatory_activity": {
+		"description": "Actividades preparatorios"
+	},
+	"chemical_integrated_managment_preparatory_activity_history": "Historico das transacções",
+	"@chemical_integrated_managment_preparatory_activity_history": {
+		"description": "Historico das transacções"
+	},
+	"chemical_integrated_managment_first_application": "Primeira aplicação",
+	"@chemical_integrated_managment_first_application": {
+		"description": "Primeira aplicação"
+	},
+	"chemical_integrated_managment_second_application": "Segunda aplicação",
+	"@chemical_integrated_managment_second_application": {
+		"description": "Segunda aplicação"
+	},
+	"chemical_integrated_managment_third_application": "Terceira aplicação",
+	"@chemical_integrated_managment_third_application": {
+		"description": "Terceira aplicação"
+	},
+	"chemical_integrated_managment_chemical_application_transaction": "Historico das transacções",
+	"@chemical_integrated_managment_chemical_application_transaction": {
+		"description": "Historico das transacções"
+	},
+	"events_number_of_farmers_and_trees_assisted": "Assistir {numberOfFarmers} produtores e {numberOfTress} arvores",
+	"@events_number_of_farmers_and_trees_assisted": {
+		"description": "Assistir {numberOfFarmers} produtores e {numberOfTress} arvores",
+		"placeholders": {
+			"numberOfFarmers": {
+				"type": "String"
+			},
+			"numberOfTress": {
+				"type": "String"
+			}
+		}
+	},
+	"events_number_of_selected_farmers": "{numberOfFarmers} produtore(s) seleccionados",
+	"@events_number_of_selected_farmers": {
+		"description": "{numberOfFarmers} produtore(s) seleccionados",
+		"placeholders": {
+			"numberOfFarmers": {
+				"type": "String"
+			}
+		}
+	},
+	"chemical_equipments_title": "Equipamentos",
+	"@chemical_equipments_title": {
+		"description": "Equipamentos"
+	},
+	"faq_title": "Perguntas frequentes",
+	"@faq_title": {
+		"description": "Perguntas frequentes"
+	}
+}
