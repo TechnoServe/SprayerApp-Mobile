@@ -60,7 +60,7 @@ class _MyAppState extends State<MyApp> {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'smart sprayer',
+      title: 'Smart Sprayer',
       locale: localeProvider.locale,
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,
